@@ -124,7 +124,34 @@
 
 .pokemon .detail img {
     max-width: 100%;
-    height: 70px;
+    height: 50px;
+}
+
+.pokemon .detail .height {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    font-size: .625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pokemon .detail .weight {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    font-size: .625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pokemon .detail .ability {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    font-size: .625rem;
 }
 
 .pagination {
